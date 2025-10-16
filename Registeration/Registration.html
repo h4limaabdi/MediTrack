@@ -2,33 +2,36 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <link rel="stylesheet" href="Registeration/registration.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Registeration</title>
-        <script src="Registeration/registration.js" defer></script>
+        <link rel="stylesheet" href="registration.css">
+        <script src="registration.js" defer></script>
     </head>
     <body>
         <header>
             <nav class="nav">
-                <a href="#" class="logo">💊Ⓜ️ediTrack</a>
-                <a href="#" class="about">About</a>
-                <a href="#" class="register">Join</a>
-                <a href="#" class="Profile">👤</a>
+                <a href="#" id="logo">💊Ⓜ️ediTrack</a>
+                <a href="#" id="about">About</a>
+                <a href="#" id="register">Join</a>
+                <a href="#" id="Profile">👤</a>
             </nav>
+        </header>
 
             <!--Registration Form-->
-            <section class="registrationForm">
-                <form class="form">
+
+                <form id="form">
                     <label for="medName">Medication Name:</label>
                     <input type="text" id="medName" required>
 
                     <label for="Dosage">Dosage</label>
-                    <input type="text" id="Doasge" required placeholder="e.g, 2 tablets/10 milliliters (ML)">
+                    <input type="text" id="Doasge" required placeholder="2 tablets/10 milliliters (ML)">
 
                     <label for="time">Time</label>
                     <input type="time" id="time" required>
+
+                    <button id="add">Add</button>
+                    <button id="submit">submit</button>
                 </form>
-            </section>
 
             <footer>
                 <a href="#" class="logo">💊Ⓜ️ediTrack</a>
@@ -40,8 +43,5 @@
                         </svg>
                     </a>
             </footer>
-
-        </header>
-
     </body>
 </html>
