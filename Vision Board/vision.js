@@ -1,1 +1,1 @@
-alert(Disclaimer: This page is simply a vision board of sorts);
+alert("Disclaimer: This page is simply a vision board of sorts");
