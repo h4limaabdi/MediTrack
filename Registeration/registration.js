@@ -20,7 +20,7 @@ addbtn.addEventListener("click", (event) =>{
     }
 });
 
-submitBtn.addEventListener("click", (event) =>{
+submitBtn.addEventListener("click", () =>{
     localStorage.setItem("meds", JSON.stringify(meds));
-    window.location.href = "Dashboard/index.html";
+    window.location.href = "index.html";
 });
