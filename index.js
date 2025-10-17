@@ -7,7 +7,7 @@ if (savedMeds.length === 0){
         const startBtn = document.createElement("button");
         startBtn.textContent = "Start Now!";
         startBtn.addEventListener("click", () => {
-             window.location.href = "../Registeration/Registration.html";
+             window.location.href = "Registeration/Registration.html";
         });
         medList.appendChild(startBtn);
 } else {
